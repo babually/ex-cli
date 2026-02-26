@@ -23,9 +23,6 @@
   "keywords": [],
   "author": "mrisho",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "packageManager": "pnpm@10.29.3",
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
