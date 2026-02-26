@@ -18,7 +18,7 @@
   "scripts": {
     "start": "node --loader ts-node/esm src/index.ts",
     "build": "tsup --clean",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\""
   },
   "keywords": [],
   "author": "mrisho",
