@@ -1,20 +1,31 @@
 {
-  "name": "ex-cli",
+  "name": "@babually92/ex-cli",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
-  "main": "src/index.ts",
+  "description": "An opiniotec CLI to create react and nextjs application (WIP)",
+  "main": "dist/index.cjs",
   "bin": {
-    "ex-clii": "./dist/index.js"
+    "ex-clii": "./dist/index.cjs"
   },
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.mjs"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "start": "node --loader ts-node/esm src/index.ts",
-    "build": "tsup src/index.ts --format esm --clean --minify",
+    "build": "tsup --clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "mrisho",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "packageManager": "pnpm@10.29.3",
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
