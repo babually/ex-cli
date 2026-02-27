@@ -1,6 +1,6 @@
 {
   "name": "@babually/ex-cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "An opinionated CLI to create react and nextjs application (WIP)",
   "main": "dist/index.cjs",
