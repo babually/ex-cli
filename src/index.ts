@@ -7,7 +7,8 @@ import {
     confirm, 
     intro,
     cancel,
-    progress
+    progress,
+    note
 } from '@clack/prompts';
 import chalk from 'chalk';
 import figlet from 'figlet';
@@ -62,9 +63,9 @@ async function renderTemplates(
 async function main() {
     try {
         console.log(
-            chalk.hex("#ff69b4")
+            chalk.hex("#e9e3d3")
                 (figlet.textSync("Ex-CLI", {
-                    font: "Graffiti",
+                    font: "ANSI Shadow",
                     width: 80,
                     whitespaceBreak: true
                 })
@@ -253,6 +254,11 @@ async function main() {
         cancel("❌ Setup failed.");
         console.error(err);
     } 
+
+    note(
+        `cd ${name}\n${packageManager} dev`,
+        'Next steps.'
+    );
 }
 
 main();

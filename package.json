@@ -1,8 +1,8 @@
 {
-  "name": "ex-cli",
-  "version": "1.1.0",
+  "name": "@babually/ex-cli",
+  "version": "1.1.1",
   "type": "module",
-  "description": "An opiniotec CLI to create react and nextjs application (WIP)",
+  "description": "An opinionated CLI to create react and nextjs application (WIP)",
   "main": "dist/index.cjs",
   "bin": {
     "ex-clii": "./dist/index.cjs"
