@@ -5,7 +5,7 @@
   "description": "An opinionated CLI to create react and nextjs application (WIP)",
   "main": "dist/index.cjs",
   "bin": {
-    "ex-clii": "./dist/index.cjs"
+    "ex-clii": "dist/index.cjs"
   },
   "exports": {
     "require": "./dist/index.cjs",
@@ -38,5 +38,8 @@
     "fs-extra": "^11.3.3",
     "gradient-string": "^3.0.0",
     "handlebars": "^4.7.8"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
