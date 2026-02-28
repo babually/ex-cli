@@ -1,5 +1,5 @@
 {
-  "name": "ex-cli",
+  "name": "@babually92/ex-cli",
   "version": "1.1.4",
   "description": "An opinionated CLI to create react and nextjs application (WIP)",
   "keywords": [],
