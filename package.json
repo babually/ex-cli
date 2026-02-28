@@ -1,6 +1,6 @@
 {
   "name": "@babually92/ex-cli",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "An opinionated CLI to create react and nextjs application (WIP)",
   "keywords": [],
   "homepage": "https://github.com/babually/ex-cli#readme",
