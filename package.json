@@ -15,10 +15,10 @@
   "author": "mrisho",
   "type": "module",
   "exports": {
-    "require": "./dist/index.cjs",
-    "import": "./dist/index.mjs"
+    "import": "./dist/index.mjs",
+    "default": "./dist/index.mjs"
   },
-  "main": "dist/index.cjs",
+  "main": "dist/index.mjs",
   "types": "./dist/index.d.ts",
   "bin": {
     "ex-cli": "dist/index.mjs"
