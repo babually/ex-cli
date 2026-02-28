@@ -21,7 +21,7 @@
   "main": "dist/index.cjs",
   "types": "./dist/index.d.ts",
   "bin": {
-    "ex-cli": "dist/index.cjs"
+    "ex-cli": "dist/index.mjs"
   },
   "files": [
     "dist",
